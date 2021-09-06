@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="logo logo1" onclick="toWhatsApp2()"></div>
+      <div class="one flex1">
+        <div class="text0">รายได้เสริม</div>
+
+        <div class="text1">คุณต้องการสร้างรายได้ด้วยโทรศัพท์มือถือหรือไม่?</div>
+
+        <div class="text2">ทำเงินได้ทุกที่ทุกเวลา！ <br /></div>
+        <div class="btn" onclick="toWhatsApp()">รับเงินเพื่อเพิ่มLINE: +66<span id="phone"></span></div>
+      </div>
+      <div class="two item" style="margin-top: 24px">
+        <div class="twoBg"></div>
+        <div class="text3">
+          มูฮัมหมัดมาจากไนโรบี <br />
+          ในฐานะพนักงานออฟฟิศทั่วไป <br />
+          เงินเดือนของเขาเพียง 1,000 ฿ต่อเดือน <br />
+          แต่เขามีรายได้มากกว่า 5,000 ฿ ต่อเดือน <br />
+          ผ่านทางโทรศัพท์มือถือของเขา <br />
+          สิ่งนี้ทำให้ชีวิตของเขาดีขึ้นและเพื่อน ๆ ของเขาอิจฉาเขา <br />
+        </div>
+      </div>
+      <div class="three item">
+        <div class="threeBg"></div>
+        <div class="text3">
+          ฟาติมาเป็นแม่ฟูลไทม์ที่บ้าน <br />
+          ทำงานพาร์ทไทม์ที่บ้านเพียงเดือนเดียว <br />
+          และในเวลาเพียงเดือนกว่าๆ <br />
+          เธอก็ซื้อรถที่เธอรักและสร้างชีวิต <br />
+          ที่มั่งคั่งให้กับครอบครัวของเธอ<br />
+        </div>
+      </div>
+      <div class="four item">
+        <div class="fourBg"></div>
+        <div class="text3">
+          อาเหม็ดเพิ่งจบการศึกษา <br />
+          หน่วยงานส่งเสริมห้างสรรพสินค้าออนไลน์ใช้เวลา 3 เดือน <br />
+          จึงจะได้รับค่าคอมมิชชั่นมากพอ <br />
+          ที่จะซื้อ Dahou ที่สวยงามของเขาได้ <br />
+        </div>
+      </div>
+      <div class="five item">
+        <div class="fiveBg"></div>
+        <div class="text3">
+          บรรดาผู้ที่ร่ำรวยจะมีเวลาเพลิดเพลินไป <br />
+          กับชายหาดและคฤหาสน์มากขึ้น แต่คุณก็สามารถทำได้เช่นกัน <br />
+          เพียงติดต่อเราเพื่อให้มีโอกาสพึ่งพาตนเองแทนการรอ <br />
+          บรรดาผู้ที่เชื่อในตัวเราล้วน <br />
+          ประสบความสำเร็จแล้ว<br />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var arr2 = ['https://lin.ee/jf1FMxg','https://lin.ee/vtAXgoD', 'https://lin.ee/Qvmivxy','https://lin.ee/yn5ZUhB','https://lin.ee/t7xUE1S','https://lin.ee/pKjcww4'];
+
+      function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min; //不含最大值，含最小值
+      }
+      var index2 = getRandomInt(0, 6);
+
+      var down = arr2[index2];
+
+      function toWhatsApp2() {
+        window.location.href = down;
+      }
+    </script>
+  </body>
+</html>

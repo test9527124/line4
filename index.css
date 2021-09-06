@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  /* min-height: 100vh; */
+  position: relative;
+}
+.logo {
+  position: fixed;
+  right: 20px;
+ 
+  width: 54px;
+  height: 54px;
+  background: #ffffff url(./imgs/logo.png) center center no-repeat;
+  background-size: 48px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.logo1{
+  top: 100px;
+
+}
+.logo2{
+  top: 200px;
+
+}
+.one {
+  background: url(./imgs/a.png) top center no-repeat;
+  background-size: contain;
+  /* height: 520px; */
+  padding:18px 0px;
+  /* height: calc(100vh - 81px); */
+  /* margin-top: -50px; */
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top {
+  text-align: center;
+  color: #282828;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 18px;
+  font-family: 'Adobe Thai';
+}
+
+.text0 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Adobe Thai';
+  margin-bottom: 200px;
+}
+.text1 {
+  text-align: center;
+  color: #262626;
+  font-size: 32px;
+  font-family: 'Adobe Thai'
+}
+.text2 {
+  margin-top:12px;
+  text-align: center;
+  color: #262626;
+  font-size: 18px;
+}
+.btn {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Adobe Thai';
+  border: 1px #fff solid;
+  padding: 8px 12px;
+  margin-top: 16px;
+  background-color: #58bb48;
+  border-radius: 4px;
+}
+
+.item {
+  padding: 24px 16px;
+}
+
+.twoBg {
+  background: url(./imgs/b.png) top center no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+.threeBg {
+  background: url(./imgs/c.png) top center no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+.fourBg {
+  background: url(./imgs/d.png) top center no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+.fiveBg {
+  background: url(./imgs/e.png) top center no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+.text3 {
+  color: #262626;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Adobe Thai';
+  word-break: break-all;
+  margin-top: 12px;
+}
